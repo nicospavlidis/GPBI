@@ -92,3 +92,4 @@ for iter=1:49,
 	T = [T; {'gpbi',iter+1,k, B, p.NMI, p.AdjRand, p.Purity, estK, myclock, trueK}];
 end
 writetable(T,sprintf('VincentZoom_de_rand1_k%i_B%i.txt',k,b))
+% To obtain the figure use the script figure2.R
